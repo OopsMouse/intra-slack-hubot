@@ -6,9 +6,11 @@ npm install
 
 PROXY={PROXY-"http://localhost:8080"}
 HUBOT_SLACK_TOKEN={HUBOT_SLACK_TOKEN-""}
+PORT={PORT-"9999"}
 
-export PORT="$PORT"
+export PROXY="$PROXY"
 export HUBOT_SLACK_TOKEN="$HUBOT_SLACK_TOKEN"
+export PORT="$PORT"
 export PATH="node_modules/.bin:node_modules/hubot/node_modules/.bin:$PATH"
 
 exec node_modules/.bin/hubot --adapter slack
