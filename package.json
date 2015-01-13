@@ -5,7 +5,7 @@
   "author": "Noda Shimpei <noda.sin@gmail.com>",
   "description": "A simple helpful robot for your Company in intranet",
   "dependencies": {
-    "hubot": "^2.11.0",
+    "hubot": "https://github.com/OopsMouse/hubot/tarball/master",
     "hubot-diagnostics": "0.0.1",
     "hubot-google-images": "^0.1.2",
     "hubot-google-translate": "^0.1.0",
