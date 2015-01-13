@@ -5,7 +5,10 @@
 This hubot uses the following environment variables:
 
   - `HUBOT_SLACK_TOKEN`- this is the API token for the Slack user you would like to run Hubot under.
-  - `PROXY` - this is proxy server to access to internet. ex) `https://localhost:8080`
+  - `HUBOT_PROXY` - this is proxy server to access to internet. ex) `https://localhost:8080`
+  - `PORT` - this is port of hubot server.
+
+Plese edit `bin/hubot`
 
 ### Running
 
